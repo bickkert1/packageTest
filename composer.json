@@ -1,5 +1,5 @@
 {
-    "name": "walnut/permissions",
+    "name": "schoutentech/permissions",
     "authors": [
         {
             "name": "Bickkert1",
@@ -14,16 +14,16 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Walnut\\Permissions\\": "src/"
+            "Schoutentech\\Permissions\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Walnut\\Permissions\\PermissionsServiceProvider"
+                "Schoutentech\\Permissions\\PermissionsServiceProvider"
             ],
                "aliases": {
             }
         }
-    }   
+    }
 }

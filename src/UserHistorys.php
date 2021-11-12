@@ -1,9 +1,9 @@
 <?php
 
-namespace Walnut\Permissions;
+namespace Schoutentech\Permissions;
 
 use Illuminate\Support\Facades\Auth;
-use Walnut\Permissions\Models\UserHistory;
+use Schoutentech\Permissions\Models\UserHistory;
 use Illuminate\Http\Request;
 
 class UserHistorys {

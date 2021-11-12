@@ -1,6 +1,6 @@
 <?php
 
-namespace Walnut\Permissions\Models;
+namespace Schoutentech\Permissions\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model as Eloquent;

@@ -1,8 +1,8 @@
 <?php
-namespace Walnut\Permissions\Console;
+namespace Schoutentech\Permissions\Console;
 
 use Illuminate\Console\Command;
-use Walnut\Permissions\Models\Permission;
+use Schoutentech\Permissions\Models\Permission;
 use App\Models\User;
 use Illuminate\Support\Facades\Crypt;
 

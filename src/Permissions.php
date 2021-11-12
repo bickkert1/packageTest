@@ -1,10 +1,10 @@
 <?php
 
-namespace Walnut\Permissions;
+namespace Schoutentech\Permissions;
 
 use Illuminate\Support\Facades\Auth;
-use Walnut\Permissions\Models\UserHistory;
-use Walnut\Permissions\Models\Permission;
+use Schoutentech\Permissions\Models\UserHistory;
+use Schoutentech\Permissions\Models\Permission;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
 

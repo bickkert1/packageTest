@@ -1,12 +1,12 @@
 <?php
 
-namespace walnut\permissions;
+namespace Schoutentech\permissions;
 
 use Illuminate\Support\ServiceProvider;
-use Walnut\Permissions\Console\AddPremission;
+use Schoutentech\Permissions\Console\AddPremission;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Auth;
-use Walnut\Permissions\Permissions;
+use Schoutentech\Permissions\Permissions;
 
 class PermissionsServiceProvider extends ServiceProvider
 {
