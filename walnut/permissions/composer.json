@@ -1,0 +1,29 @@
+{
+    "name": "walnut/permissions",
+    "authors": [
+        {
+            "name": "Bickkert1",
+            "email": "biko@famschouten.com"
+        }
+    ],
+    "description": "this is a test",
+    "require": {
+        "laravel/breeze" : "*"
+    },
+    "type": "library",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Walnut\\Permissions\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Walnut\\Permissions\\PermissionsServiceProvider"
+            ],
+               "aliases": {
+            }
+        }
+    }   
+}
