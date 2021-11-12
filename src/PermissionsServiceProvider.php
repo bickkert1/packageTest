@@ -54,7 +54,7 @@ class PermissionsServiceProvider extends ServiceProvider
                 AddPremission::class,
             ]);
         }
-        include __DIR__.'/routes.php';
+        // include __DIR__.'/routes.php';
         $this->loadMigrationsFrom(__DIR__."/database/migrations");
 
     }
