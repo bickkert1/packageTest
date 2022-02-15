@@ -9,6 +9,7 @@
     "description": "this is a test",
     "require": {
         "laravel/breeze" : "*"
+        "laravel/sanctum" : "*"
     },
     "type": "library",
     "minimum-stability": "stable",
