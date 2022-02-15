@@ -8,7 +8,7 @@
     ],
     "description": "this is a test",
     "require": {
-        "laravel/breeze" : "*"
+        "laravel/breeze" : "*",
         "laravel/sanctum" : "*"
     },
     "type": "library",
